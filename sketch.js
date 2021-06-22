@@ -1510,6 +1510,9 @@ function reset(){
   //hanuman.x=width/-1.5;
 }
 
+function windowResized(){
+  resizeCanvas(windowWidth,windowHeight);
+}
 //function hardeee(){
  // monstergroup.setVelocityYEach(-13);
   //monstergroup.setVelocityXEach(-13);
